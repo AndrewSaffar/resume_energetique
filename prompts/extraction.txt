@@ -1,0 +1,106 @@
+À partir du résumé structuré suivant, extrais les informations demandées selon le schéma cible ci-dessous.
+Privilégie les réponses très courtes - par exemple pour le champ annee_rapport, ne retiens que l'année (ex. "2025").  
+Si une valeur numérique est présente, isole uniquement la valeur numérique dans le champ "valeur".
+Si une information est absente, retourne null.
+Ajoute un court extrait exact du texte (max 20 mots) dans "source_excerpt" pour chaque élément extrait.
+
+Ne produis aucun texte en dehors du JSON.
+
+*****
+JSON:
+
+{
+  "organisation": {
+    "nom": "",
+    "region_principale": "",
+    "annee_rapport": ""
+  },
+
+  "objectifs_climatiques": {
+    "neutralite_carbone": {
+      "engagement": false,
+      "annee_cible": null
+    },
+    "reductions_emissions": [
+      {
+        "entite": "",
+        "valeur": null,
+        "unite": "%",
+        "scope": "",
+        "annee_cible": null,
+        "annee_reference": null,
+        "source_excerpt": ""
+      }
+    ]
+  },
+
+  "indicateurs_emissions": [
+    {
+      "scope": "",
+      "valeur": null,
+      "unite": "",
+      "annee": null,
+      "source_excerpt": ""
+    }
+  ],
+
+  "investissements_transition": [
+    {
+      "montant": null,
+      "unite": "",
+      "devise": "",
+      "annee": null,
+      "objectif_associe": "",
+      "source_excerpt": ""
+    }
+  ],
+
+  "projets_renouvelables": [
+    {
+      "nom_projet": "",
+      "type_energie": "",
+      "capacite": null,
+      "unite_capacite": "",
+      "localisation": "",
+      "statut": "",
+      "source_excerpt": ""
+    }
+  ],
+
+  "risques_climatiques": [
+    {
+      "type_risque": "",
+      "description_courte": "",
+      "horizon_temporel": "",
+      "source_excerpt": ""
+    }
+  ],
+
+  "strategies_adaptation": [
+    {
+      "mesure": "",
+      "type_action": "",
+      "horizon_temporel": "",
+      "source_excerpt": ""
+    }
+  ],
+
+  "technologies_numeriques_mentionnees": [
+    {
+      "technologie": "",
+      "usage_declare": "",
+      "source_excerpt": ""
+    }
+  ],
+
+  "incertitudes_limites": [
+    {
+      "description": "",
+      "categorie": "",
+      "source_excerpt": ""
+    }
+  ]
+}
+
+*****
+Résumé Structuré:

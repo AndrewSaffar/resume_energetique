@@ -1,0 +1,12 @@
+Vérifie si le JSON suivant contient des incohérences logiques ou des informations non présentes explicitement dans le texte présenté.
+Produit un court texte résumant les eventuelles erreurs s'il y en a.
+
+*****
+JSON:
+
+{JSON}
+
+*****
+Texte:
+
+{TEXTE}

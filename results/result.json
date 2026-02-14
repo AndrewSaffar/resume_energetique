@@ -1,0 +1,461 @@
+{
+  "organisation": {
+    "nom": "EntrepriseA",
+    "region_principale": "Qu\u00e9bec et Vermont",
+    "annee_rapport": "2024"
+  },
+  "objectifs_climatiques": {
+    "neutralite_carbone": {
+      "engagement": true,
+      "annee_cible": 2050,
+      "source_excerpt": "d\u00e9carboner leurs activit\u00e9s et les \u00e9nergies distribu\u00e9es, ... atteindre la Carboneutralit\u00e9 d'ici 2050."
+    },
+    "reductions_emissions": [
+      {
+        "entite": "EntrepriseA",
+        "valeur": 37.5,
+        "unite": "%",
+        "scope": "Port\u00e9es 1 et 2",
+        "annee_cible": 2030,
+        "annee_reference": 1990,
+        "source_excerpt": "37,5 %: Cible de r\u00e9duction des \u00e9missions de GES (Port\u00e9es 1 et 2) d\u2019EntrepriseA d'ici 2030 par rapport \u00e0 1990."
+      },
+      {
+        "entite": "EntrepriseA",
+        "valeur": 30,
+        "unite": "%",
+        "scope": "GES fossile dans le secteur du b\u00e2timent",
+        "annee_cible": 2030,
+        "annee_reference": 2020,
+        "source_excerpt": "30 %: Cible de r\u00e9duction des \u00e9missions de GES fossile dans le secteur du b\u00e2timent d\u2019EntrepriseA d'ici 2030 par rapport \u00e0 2020."
+      },
+      {
+        "entite": "EntrepriseA",
+        "valeur": 10,
+        "unite": "%",
+        "scope": "volumes annuels de GNR distribu\u00e9s",
+        "annee_cible": 2030,
+        "annee_reference": null,
+        "source_excerpt": "10 %: Obligation r\u00e9glementaire de proportion de GNR dans le r\u00e9seau d\u2019EntrepriseA d'ici 2030."
+      },
+      {
+        "entite": "EntrepriseB",
+        "valeur": 100,
+        "unite": "%",
+        "scope": "approvisionnement en \u00e9nergie renouvelable",
+        "annee_cible": 2030,
+        "annee_reference": null,
+        "source_excerpt": "EntrepriseB vise un portefeuille d'approvisionnement 100 % \u00e9nergie renouvelable d'ici 2030."
+      },
+      {
+        "entite": "EntrepriseB",
+        "valeur": 100,
+        "unite": "%",
+        "scope": "approvisionnement en \u00e9lectricit\u00e9 sans carbone",
+        "annee_cible": 2025,
+        "annee_reference": null,
+        "source_excerpt": "100 %: Cible d'atteinte de 100 % d'approvisionnement annuel en \u00e9lectricit\u00e9 sans carbone par EntrepriseB (r\u00e9alis\u00e9e en 2021)."
+      },
+      {
+        "entite": "EntrepriseC",
+        "valeur": 26,
+        "unite": "%",
+        "scope": "\u00e9missions de GES",
+        "annee_cible": 2025,
+        "annee_reference": 2005,
+        "source_excerpt": "26 % sous le niveau de 2005 d\u2019ici 2025: Objectif de r\u00e9duction des \u00e9missions de GES du Vermont."
+      },
+      {
+        "entite": "EntrepriseC",
+        "valeur": 40,
+        "unite": "%",
+        "scope": "\u00e9missions de GES",
+        "annee_cible": 2030,
+        "annee_reference": 1990,
+        "source_excerpt": "40 % sous le niveau de 1990 d\u2019ici 2030: Objectif de r\u00e9duction des \u00e9missions de GES du Vermont."
+      },
+      {
+        "entite": "EntrepriseC",
+        "valeur": 80,
+        "unite": "%",
+        "scope": "\u00e9missions de GES",
+        "annee_cible": 2050,
+        "annee_reference": 1990,
+        "source_excerpt": "80 % sous le niveau de 1990 d\u2019ici 2050: Objectif de r\u00e9duction des \u00e9missions de GES du Vermont."
+      },
+      {
+        "entite": "EntrepriseC",
+        "valeur": 50,
+        "unite": "%",
+        "scope": "\u00e9missions de GES des op\u00e9rations de services publics",
+        "annee_cible": 2030,
+        "annee_reference": 2020,
+        "source_excerpt": "50 %: Cible de r\u00e9duction des \u00e9missions de GES des op\u00e9rations de services publics d\u2019EntrepriseC d'ici 2030 par rapport \u00e0 2020."
+      },
+      {
+        "entite": "Qu\u00e9bec",
+        "valeur": 37.5,
+        "unite": "%",
+        "scope": "\u00e9missions de GES",
+        "annee_cible": 2030,
+        "annee_reference": 1990,
+        "source_excerpt": "37,5 %: Cible de r\u00e9duction des \u00e9missions de GES du Qu\u00e9bec d'ici 2030 par rapport \u00e0 1990."
+      },
+      {
+        "entite": "Qu\u00e9bec",
+        "valeur": 50,
+        "unite": "%",
+        "scope": "\u00e9missions de GES dans le secteur du b\u00e2timent",
+        "annee_cible": 2030,
+        "annee_reference": null,
+        "source_excerpt": "50 %: Cible de r\u00e9duction des \u00e9missions de GES dans le secteur du b\u00e2timent du Qu\u00e9bec d'ici 2030."
+      },
+      {
+        "entite": "Montr\u00e9al",
+        "valeur": 55,
+        "unite": "%",
+        "scope": "\u00e9missions de GES",
+        "annee_cible": 2030,
+        "annee_reference": null,
+        "source_excerpt": "55 %: Cible de r\u00e9duction des \u00e9missions de GES de la Ville de Montr\u00e9al d'ici 2030."
+      }
+    ]
+  },
+  "indicateurs_emissions": [
+    {
+      "scope": "Port\u00e9es 1 et 2",
+      "valeur": 56465,
+      "unite": "tonnes \u00e9q. CO2",
+      "annee": 2023,
+      "source_excerpt": "56 465 tonnes \u00e9q. CO2: Total des \u00e9missions directes et indirectes dues \u00e0 l\u2019\u00e9nergie import\u00e9e (Port\u00e9es 1 et 2) d\u2019EntrepriseA en 2023."
+    },
+    {
+      "scope": "Port\u00e9e 3 (utilisation par clients)",
+      "valeur": 11.65,
+      "unite": "M tonnes \u00e9q. CO2",
+      "annee": 2024,
+      "source_excerpt": "11,65 M tonnes \u00e9q. CO2: Utilisation du gaz naturel par les clients (cat\u00e9gorie 11, Port\u00e9e 3) d\u2019EntrepriseA en 2023-2024."
+    },
+    {
+      "scope": "Port\u00e9es 1 et 2",
+      "valeur": 31745,
+      "unite": "tonnes \u00e9q. CO2",
+      "annee": 2022,
+      "source_excerpt": "31 745 tonnes \u00e9q. CO2: Total des \u00e9missions directes et indirectes (Port\u00e9es 1 et 2) d\u2019EntrepriseB en 2022."
+    },
+    {
+      "scope": "Port\u00e9es 1 et 2",
+      "valeur": 4425,
+      "unite": "tonnes \u00e9q. CO2",
+      "annee": 2023,
+      "source_excerpt": "4 425 tonnes \u00e9q. CO2: Total des \u00e9missions directes et indirectes (Port\u00e9es 1 et 2) d\u2019EntrepriseC en 2023."
+    },
+    {
+      "scope": "Port\u00e9e 1 (ECCU)",
+      "valeur": 30115,
+      "unite": "tonnes \u00e9q. CO2",
+      "annee": 2023,
+      "source_excerpt": "30 115 tonnes \u00e9q. CO2: \u00c9missions de GES de Port\u00e9e 1 d'ECCU en 2023."
+    },
+    {
+      "scope": "Port\u00e9e 1 (Intragaz)",
+      "valeur": 7260,
+      "unite": "tonnes \u00e9q. CO2",
+      "annee": 2023,
+      "source_excerpt": "7 260 tonnes \u00e9q. CO2: \u00c9missions de GES de Port\u00e9e 1 d'Intragaz en 2023."
+    },
+    {
+      "scope": "Port\u00e9e 1 (GM GNL)",
+      "valeur": 15385,
+      "unite": "tonnes \u00e9q. CO2",
+      "annee": 2023,
+      "source_excerpt": "15 385 tonnes \u00e9q. CO2: \u00c9missions de GES de Port\u00e9e 1 de Gaz M\u00e9tro GNL en 2023."
+    },
+    {
+      "scope": "Port\u00e9e 1 (TQM)",
+      "valeur": 18215,
+      "unite": "tonnes \u00e9q. CO2",
+      "annee": 2023,
+      "source_excerpt": "18 215 tonnes \u00e9q. CO2: \u00c9missions de GES de TQM en 2023."
+    }
+  ],
+  "investissements_transition": [
+    {
+      "montant": 575,
+      "unite": "millions",
+      "devise": "dollars",
+      "annee": 2024,
+      "objectif_associe": "soutenir la croissance de l\u2019entreprise et la r\u00e9alisation de son plan de D\u00e9carbonation et de r\u00e9silience climatique",
+      "source_excerpt": "R\u00e9investissement total de la Caisse de d\u00e9p\u00f4t et placement du Qu\u00e9bec et du Fonds de solidarit\u00e9 FTQ dans EntrepriseA en septembre 2024."
+    },
+    {
+      "montant": 300,
+      "unite": "millions",
+      "devise": "USD",
+      "annee": 2024,
+      "objectif_associe": null,
+      "source_excerpt": "\u00c9mission de billets non garantis pour un montant de 300 M$ US venant \u00e9ch\u00e9ance en 2034."
+    },
+    {
+      "montant": 75,
+      "unite": "millions",
+      "devise": "USD",
+      "annee": 2024,
+      "objectif_associe": null,
+      "source_excerpt": "\u00c9mission d\u2019une s\u00e9rie d\u2019obligations de premi\u00e8re hypoth\u00e8que pour un montant de 75 M$ US par EntrepriseB."
+    },
+    {
+      "montant": 400,
+      "unite": "millions",
+      "devise": "dollars",
+      "annee": 2023,
+      "objectif_associe": null,
+      "source_excerpt": "\u00c9mission d\u2019une s\u00e9rie d\u2019obligations de premi\u00e8re hypoth\u00e8que pour un montant de 400 M$ venant \u00e0 \u00e9ch\u00e9ance en 2053."
+    },
+    {
+      "montant": 12.7,
+      "unite": "milliards",
+      "devise": "dollars",
+      "annee": 2026,
+      "objectif_associe": "plan de mise en \u0153uvre 2024-2029 du Plan pour une \u00e9conomie verte 2030",
+      "source_excerpt": "plus de 12,7 milliards $ d\u2019investissements sont pr\u00e9vus d\u2019ici 2026."
+    },
+    {
+      "montant": 10,
+      "unite": "millions",
+      "devise": "dollars",
+      "annee": null,
+      "objectif_associe": "r\u00e9duire les \u00e9missions de GES de pr\u00e8s de 10 000 tonnes par an",
+      "source_excerpt": "subvention du gouvernement du Qu\u00e9bec de pr\u00e8s de 10 millions de dollars pour un projet totalisant environ 24 millions de dollars."
+    }
+  ],
+  "projets_renouvelables": [
+    {
+      "nom_projet": "Parcs \u00e9oliens de la Seigneurie de Beaupr\u00e9",
+      "type_energie": "\u00e9olienne",
+      "capacite": 340,
+      "unite_capacite": "MW",
+      "localisation": "Qu\u00e9bec",
+      "statut": "en exploitation",
+      "source_excerpt": "Elle exploite actuellement, avec ses partenaires, les parcs \u00e9oliens de la Seigneurie de Beaupr\u00e9, qui totalisent une capacit\u00e9 de 340 MW."
+    },
+    {
+      "nom_projet": "Parc \u00e9olien Des Neiges",
+      "type_energie": "\u00e9olienne",
+      "capacite": 1200,
+      "unite_capacite": "MW",
+      "localisation": "Qu\u00e9bec",
+      "statut": "projet futur",
+      "source_excerpt": "le parc \u00e9olien Des Neiges, (...) un projet d\u2019envergure qui comportera trois phases, chacune de 400 MW, pour un total de 1 200 MW"
+    }
+  ],
+  "risques_climatiques": [
+    {
+      "type_risque": "Politiques et juridiques",
+      "description_courte": "Augmentation du Prix du carbone, acc\u00e9l\u00e9ration des objectifs de D\u00e9carbonation, r\u00e9glementation plus contraignante, incoh\u00e9rence du cadre r\u00e9glementaire, litiges li\u00e9s aux \u00e9missions.",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "Risques politiques et juridiques (augmentation du Prix du carbone, acc\u00e9l\u00e9ration des objectifs de d\u00e9carbonation, r\u00e9glementation plus contraignante, incoh\u00e9rence du cadre r\u00e9glementaire avec les objectifs d'affaires, exposition aux litiges li\u00e9s aux \u00e9missions de GES)."
+    },
+    {
+      "type_risque": "Technologiques",
+      "description_courte": "Moindre efficacit\u00e9 des technologies au gaz naturel, investissements infructueux dans de nouvelles technologies.",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "Risques technologiques (moindre efficacit\u00e9 des technologies au gaz naturel, investissements infructueux dans de nouvelles technologies)."
+    },
+    {
+      "type_risque": "Li\u00e9s au march\u00e9",
+      "description_courte": "Changement de comportements de la client\u00e8le, augmentation des co\u00fbts d\u2019approvisionnement.",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "Risques de march\u00e9 (changement de comportements de la client\u00e8le, augmentation des co\u00fbts d\u2019approvisionnement)."
+    },
+    {
+      "type_risque": "R\u00e9putationnels",
+      "description_courte": "Pr\u00e9occupations accrues des parties prenantes, acc\u00e8s au financement r\u00e9duit.",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "Risques r\u00e9putationnels (pr\u00e9occupations accrues des parties prenantes, acc\u00e8s au financement r\u00e9duit)."
+    },
+    {
+      "type_risque": "Physiques aigus",
+      "description_courte": "Temp\u00eates, glissements de terrain, feux de for\u00eat, s\u00e9cheresse, inondations.",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "Risques physiques aigus : temp\u00eates, glissements de terrain, feux de for\u00eat, s\u00e9cheresse, inondations."
+    },
+    {
+      "type_risque": "Physiques chroniques",
+      "description_courte": "Froid extr\u00eame, chaleur extr\u00eame, pr\u00e9cipitations.",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "Risques physiques chroniques : froid extr\u00eame, chaleur extr\u00eame, pr\u00e9cipitations."
+    }
+  ],
+  "strategies_adaptation": [
+    {
+      "mesure": "Accroissement des efforts en efficacit\u00e9 \u00e9nerg\u00e9tique",
+      "type_action": "R\u00e9duction de la demande",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "l\u2019accroissement des efforts en efficacit\u00e9 \u00e9nerg\u00e9tique"
+    },
+    {
+      "mesure": "Conversion des utilisateurs vers la bi\u00e9nergie (\u00e9lectricit\u00e9 et gaz naturel/GNR)",
+      "type_action": "D\u00e9carbonation des usages",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "la conversion des utilisateurs de gaz naturel vers une solution compl\u00e9mentaire combinant \u00e9lectricit\u00e9 et gaz naturel (notamment l\u2019offre bi\u00e9nergie)"
+    },
+    {
+      "mesure": "Acc\u00e9l\u00e9ration de l\u2019injection du GNR",
+      "type_action": "Substitution \u00e9nerg\u00e9tique",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "l\u2019acc\u00e9l\u00e9ration de l\u2019injection de Gaz Naturel Renouvelable (GNR)"
+    },
+    {
+      "mesure": "D\u00e9veloppement de vecteurs de croissance \u00e0 faible empreinte carbone",
+      "type_action": "Diversification/Innovation",
+      "horizon_temporel": "2030-2050",
+      "source_excerpt": "le d\u00e9veloppement, par le biais de soci\u00e9t\u00e9s affili\u00e9es, de vecteurs de croissance \u00e0 faible empreinte carbone."
+    },
+    {
+      "mesure": "Renforcement des lignes (enterr\u00e9es, fils isol\u00e9s ou c\u00e2bles d\u2019espacement, dispositifs de protection)",
+      "type_action": "Am\u00e9lioration des infrastructures",
+      "horizon_temporel": "court \u00e0 long terme",
+      "source_excerpt": "Renforcement des lignes (enterr\u00e9es, fils isol\u00e9s ou c\u00e2bles d\u2019espacement, dispositifs de protection)"
+    },
+    {
+      "mesure": "Cr\u00e9ation de micro-r\u00e9seaux communautaires dans des zones cibl\u00e9es",
+      "type_action": "D\u00e9centralisation \u00e9nerg\u00e9tique",
+      "horizon_temporel": "court \u00e0 long terme",
+      "source_excerpt": "Cr\u00e9ation de micro-r\u00e9seaux communautaires dans des zones cibl\u00e9es"
+    },
+    {
+      "mesure": "D\u00e9ploiement de stockage r\u00e9sidentiel",
+      "type_action": "Gestion de la demande/Stockage",
+      "horizon_temporel": "court \u00e0 long terme",
+      "source_excerpt": "D\u00e9ploiement de stockage r\u00e9sidentiel"
+    },
+    {
+      "mesure": "Acc\u00e9l\u00e9rer l'acc\u00e8s \u00e0 des services abordables d\u2019isolation des habitations",
+      "type_action": "Efficacit\u00e9 \u00e9nerg\u00e9tique",
+      "horizon_temporel": "court \u00e0 long terme",
+      "source_excerpt": "Acc\u00e9l\u00e9rer l\u2019acc\u00e8s \u00e0 des services abordables d\u2019isolation des habitations"
+    },
+    {
+      "mesure": "Lancement de solutions renouvelables \u00e0 domicile (chauffe-eau \u00e0 thermopompe \u00e9lectrique, thermopompe \u00e0 conduits centraux \u00e0 contr\u00f4les int\u00e9gr\u00e9s et mini-thermopompes bibloc sans conduits)",
+      "type_action": "D\u00e9carbonation des usages",
+      "horizon_temporel": "court \u00e0 long terme",
+      "source_excerpt": "Lancement de solutions renouvelables \u00e0 domicile"
+    },
+    {
+      "mesure": "Croissance de l\u2019approvisionnement en sources alternatives d\u2019\u00e9nergie (GNR, hydrog\u00e8ne vert, g\u00e9othermique en r\u00e9seau)",
+      "type_action": "Substitution \u00e9nerg\u00e9tique",
+      "horizon_temporel": "court \u00e0 long terme",
+      "source_excerpt": "Croissance de l\u2019approvisionnement en sources alternatives d\u2019\u00e9nergie"
+    }
+  ],
+  "technologies_numeriques_mentionnees": [
+    {
+      "technologie": "Solutions num\u00e9riques intelligentes",
+      "usage_declare": "encourager l'adoption de nouvelles technologies plus performantes",
+      "source_excerpt": "favorisant l\u2019int\u00e9gration de solutions num\u00e9riques intelligentes."
+    },
+    {
+      "technologie": "Infrastructure \u00e9lectrique intelligente",
+      "usage_declare": "am\u00e9liorer continuellement la r\u00e9silience du syst\u00e8me de distribution de l\u2019\u00e9nergie et les b\u00e2timents de la client\u00e8le",
+      "source_excerpt": "l\u2019infrastructure \u00e9lectrique intelligente dans les maisons et les entreprises."
+    }
+  ],
+  "incertitudes_limites": [
+    {
+      "description": "Incertitudes li\u00e9es aux d\u00e9cisions r\u00e9glementaires et \u00e0 l'obtention des approbations n\u00e9cessaires.",
+      "categorie": "R\u00e9glementaire",
+      "source_excerpt": "Incertitudes li\u00e9es aux d\u00e9cisions r\u00e9glementaires et \u00e0 l'obtention des approbations n\u00e9cessaires."
+    },
+    {
+      "description": "Risques socio-\u00e9conomiques li\u00e9s aux activit\u00e9s.",
+      "categorie": "Socio-\u00e9conomique",
+      "source_excerpt": "Risques socio-\u00e9conomiques li\u00e9s aux activit\u00e9s."
+    },
+    {
+      "description": "Concurrence du gaz naturel par rapport \u00e0 d'autres sources d'\u00e9nergie dans un contexte de fluctuation des prix des produits p\u00e9troliers.",
+      "categorie": "March\u00e9",
+      "source_excerpt": "Concurrence du gaz naturel par rapport \u00e0 d'autres sources d'\u00e9nergie dans un contexte de fluctuation des prix des produits p\u00e9troliers."
+    },
+    {
+      "description": "R\u00e9percussions des changements climatiques dans la conduite des activit\u00e9s des soci\u00e9t\u00e9s, que ce soit la r\u00e9sultante d\u2019\u00e9v\u00e9nements physiques aigus ou chroniques, de changements d\u2019ordre politique, r\u00e9glementaire, technologique, de march\u00e9 ou juridique.",
+      "categorie": "Climatique et R\u00e9glementaire",
+      "source_excerpt": "R\u00e9percussions des changements climatiques dans la conduite des activit\u00e9s des soci\u00e9t\u00e9s, que ce soit la r\u00e9sultante d\u2019\u00e9v\u00e9nements physiques aigus ou chroniques"
+    },
+    {
+      "description": "Incertitudes li\u00e9es \u00e0 la mise en \u0153uvre des plans nationaux/r\u00e9gionaux de r\u00e9duction des \u00e9missions (Plan de r\u00e9duction des \u00e9missions pour 2030 du Canada, PEV 2030 du Qu\u00e9bec, Plan climat de la Ville de Montr\u00e9al et du RES au Vermont).",
+      "categorie": "Politique/R\u00e9glementaire",
+      "source_excerpt": "Incertitudes li\u00e9es \u00e0 la mise en \u0153uvre du Plan de r\u00e9duction des \u00e9missions pour 2030 du Canada, du PEV 2030 du Qu\u00e9bec, du Plan climat de la Ville de Montr\u00e9al et du RES au Vermont."
+    },
+    {
+      "description": "Fiabilit\u00e9 ou les co\u00fbts de l\u2019approvisionnement en gaz naturel et en \u00e9lectricit\u00e9.",
+      "categorie": "March\u00e9",
+      "source_excerpt": "Fiabilit\u00e9 ou les co\u00fbts de l\u2019approvisionnement en gaz naturel et en \u00e9lectricit\u00e9."
+    },
+    {
+      "description": "Int\u00e9grit\u00e9 des syst\u00e8mes de transport et de distribution de gaz naturel et d\u2019\u00e9lectricit\u00e9.",
+      "categorie": "Op\u00e9rationnel",
+      "source_excerpt": "Int\u00e9grit\u00e9 des syst\u00e8mes de transport et de distribution de gaz naturel et d\u2019\u00e9lectricit\u00e9."
+    },
+    {
+      "description": "\u00c9volution et rentabilit\u00e9 des projets de d\u00e9veloppement, la capacit\u00e9 de r\u00e9aliser des acquisitions attrayantes, y compris leur financement et leur int\u00e9gration, la capacit\u00e9 de r\u00e9aliser de nouveaux projets de d\u00e9veloppement, la capacit\u00e9 d\u2019obtenir du financement dans l\u2019avenir.",
+      "categorie": "Financier/D\u00e9veloppement",
+      "source_excerpt": "\u00c9volution et rentabilit\u00e9 des projets de d\u00e9veloppement, la capacit\u00e9 de r\u00e9aliser des acquisitions attrayantes, y compris leur financement et leur int\u00e9gration"
+    },
+    {
+      "description": "Conjoncture \u00e9conomique g\u00e9n\u00e9rale, les r\u00e9percussions de l\u2019\u00e9closion d\u2019une \u00e9pid\u00e9mie ou d\u2019une pand\u00e9mie ou d\u2019autres crises de sant\u00e9 publique, les fluctuations des taux de change et des taux d\u2019int\u00e9r\u00eat, une \u00e9ventuelle r\u00e9forme fiscale am\u00e9ricaine ou canadienne, l\u2019incidence d\u2019une guerre ou autres conflits g\u00e9opolitiques.",
+      "categorie": "Macro-\u00e9conomique/G\u00e9opolitique",
+      "source_excerpt": "Conjoncture \u00e9conomique g\u00e9n\u00e9rale, les r\u00e9percussions de l\u2019\u00e9closion d\u2019une \u00e9pid\u00e9mie ou d\u2019une pand\u00e9mie ou d\u2019autres crises de sant\u00e9 publique, les fluctuations des taux de change et des taux d\u2019int\u00e9r\u00eat"
+    },
+    {
+      "description": "P\u00e9nurie de main-d\u2019\u0153uvre et besoin de d\u00e9veloppement de comp\u00e9tences pour la transition \u00e9nerg\u00e9tique.",
+      "categorie": "Ressources humaines",
+      "source_excerpt": "P\u00e9nurie de main-d\u2019\u0153uvre et besoin de d\u00e9veloppement de comp\u00e9tences pour la transition \u00e9nerg\u00e9tique."
+    },
+    {
+      "description": "\u00c9volution du cadre l\u00e9gislatif et r\u00e9glementaire, du Prix du carbone, des connaissances scientifiques et des principes g\u00e9n\u00e9ralement reconnus de comptabilisation des \u00e9missions de GES.",
+      "categorie": "R\u00e9glementaire/Scientifique",
+      "source_excerpt": "\u00c9volution du cadre l\u00e9gislatif et r\u00e9glementaire, du Prix du carbone, des connaissances scientifiques et des principes g\u00e9n\u00e9ralement reconnus de comptabilisation des \u00e9missions de GES."
+    },
+    {
+      "description": "D\u00e9veloppement technologique li\u00e9 \u00e0 la production des \u00e9nergies renouvelables et autres technologies de D\u00e9carbonation.",
+      "categorie": "Technologique",
+      "source_excerpt": "D\u00e9veloppement technologique li\u00e9 \u00e0 la production des \u00e9nergies renouvelables et autres technologies de D\u00e9carbonation."
+    },
+    {
+      "description": "Plans de D\u00e9carbonation de leur client\u00e8le industrielle (technologies d\u00e9sir\u00e9es, horizon de mise en action, cibles de D\u00e9carbonation, etc.).",
+      "categorie": "Client\u00e8le/March\u00e9",
+      "source_excerpt": "Plans de D\u00e9carbonation de leur client\u00e8le industrielle (technologies d\u00e9sir\u00e9es, horizon de mise en action, cibles de D\u00e9carbonation, etc.)."
+    },
+    {
+      "description": "Acceptabilit\u00e9 sociale de certaines technologies de D\u00e9carbonation.",
+      "categorie": "Soci\u00e9tal",
+      "source_excerpt": "Acceptabilit\u00e9 sociale de certaines technologies de D\u00e9carbonation."
+    },
+    {
+      "description": "Augmentation de 3 % des \u00e9missions mondiales pr\u00e9vues en 2030 par rapport aux pr\u00e9visions de l'\u00e9dition 2023 du sc\u00e9nario Z\u00e9ro \u00e9mission nette (AIE), indiquant un retard dans les r\u00e9ductions de GES.",
+      "categorie": "Sc\u00e9narios climatiques",
+      "source_excerpt": "Augmentation de 3 % des \u00e9missions mondiales pr\u00e9vues en 2030 par rapport aux pr\u00e9visions de l'\u00e9dition 2023 du sc\u00e9nario Z\u00e9ro \u00e9mission nette (AIE)"
+    },
+    {
+      "description": "Rythme mod\u00e9r\u00e9 de l'\u00e9volution technologique et disponibilit\u00e9 limit\u00e9e des technologies de retrait du carbone (CDR) dans le Sc\u00e9nario Actions diff\u00e9r\u00e9es.",
+      "categorie": "Sc\u00e9narios climatiques",
+      "source_excerpt": "Rythme mod\u00e9r\u00e9 de l'\u00e9volution technologique et disponibilit\u00e9 limit\u00e9e des technologies de retrait du carbone (CDR) dans le Sc\u00e9nario Actions diff\u00e9r\u00e9es."
+    },
+    {
+      "description": "Bien qu\u2019EntrepriseA ne soit pas assujettie \u00e0 une obligation l\u00e9gale de r\u00e9duire express\u00e9ment ses \u00e9missions.",
+      "categorie": "R\u00e9glementaire",
+      "source_excerpt": "Bien qu\u2019EntrepriseA ne soit pas assujettie \u00e0 une obligation l\u00e9gale de r\u00e9duire express\u00e9ment ses \u00e9missions"
+    },
+    {
+      "description": "La pr\u00e9visibilit\u00e9 quant aux besoins de main-d\u2019\u0153uvre est un exercice complexe. Bien que celle-ci repose sur la validit\u00e9 des hypoth\u00e8ses utilis\u00e9es pour faire les projections, une multitude de facteurs peuvent influencer les variables.",
+      "categorie": "Ressources humaines",
+      "source_excerpt": "La pr\u00e9visibilit\u00e9 quant aux besoins de main-d\u2019\u0153uvre est un exercice complexe. Bien que celle-ci repose sur la validit\u00e9 des hypoth\u00e8ses utilis\u00e9es pour faire les projections, une multitude de facteurs peuvent influencer les variables."
+    },
+    {
+      "description": "Les sc\u00e9narios ne sont pas des pr\u00e9visions, des pr\u00e9dictions ou des analyses de sensibilit\u00e9.",
+      "categorie": "M\u00e9thodologie",
+      "source_excerpt": "Les sc\u00e9narios ne sont pas des pr\u00e9visions, des pr\u00e9dictions ou des analyses de sensibilit\u00e9."
+    }
+  ]
+}
