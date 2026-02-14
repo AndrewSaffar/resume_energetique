@@ -1,5 +1,7 @@
 # ESG Climate Report Extraction Agent
 
+[Version francaise](https://github.com/AndrewSaffar/resume_energetique/blob/main/README_FR.md)
+
 ## Overview
 
 This project implements a lightweight LLM-based pipeline to
